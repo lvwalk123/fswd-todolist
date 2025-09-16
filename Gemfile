@@ -10,7 +10,6 @@ gem 'puma', '>= 5.6.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 6.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 # gem 'uglifier', '~> 4.2.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -76,5 +75,7 @@ end
 
 group :production do
   # Use pg as the database for Active Record
-  gem 'pg', '~> 1.4.3'
+  gem 'pg', '~> 1.6'
 end
+
+gem "importmap-rails", "~> 2.2"
