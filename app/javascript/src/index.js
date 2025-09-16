@@ -3,3 +3,6 @@
 
 const channels = require.context('.', true, /_channel\.js$/)
 channels.keys().forEach(channels)
+
+// app/javascript/src/requests.js
+console.log("ajax requests");
